@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Your Name Here"/>
+    <meta name="description" content="I'm a passionate Front-End Developer specializing in modern, responsive websites using React, Tailwind, and smooth animations."/>
+    <meta name="keywords" content="frontend developer, react developer, web developer, portfolio, javascript"/>
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="Your Name - Front-End Developer"/>
+    <meta property="og:description" content="Modern, clean & minimal portfolio template for front-end developers and freelancers."/>
+    <meta property="og:image" content="https://yourdomain.com/preview.jpg"/> <!-- change this later -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://yourdomain.com"/>
+
+    <title>Your Name | Front-End Developer</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="container">
+            <h1>Hi, I'm <span>Your Name</span></h1>
+            <p class="role">Front-End Developer</p>
+            <p class="tagline">Crafting clean, modern & responsive web experiences</p>
+            <a href="#projects" class="cta">View My Projects</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I'm a 22-year-old self-taught front-end developer passionate about creating beautiful, 
+                user-friendly interfaces. I specialize in React, modern JavaScript, and turning designs 
+                into pixel-perfect websites. Currently focused on building fast, accessible, and animated UIs.
+            </p>
+            <p><strong>2+ years</strong> of experience • Loves dark mode & smooth animations</p>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section id="tech-stack">
+        <div class="container">
+            <h2>Tech Stack</h2>
+            <div class="tech-icons">
+                <i class="devicon-html5-plain colored"></i>
+                <i class="devicon-css3-plain colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-react-original colored"></i>
+                <i class="devicon-tailwindcss-original colored"></i>
+                <i class="devicon-git-plain colored"></i>
+                <i class="devicon-figma-original colored"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <!-- Repeat this card 3-6 times -->
+                <div class="project-card">
+                    <div class="project-image-placeholder"></div>
+                    <h3>E-Commerce Dashboard</h3>
+                    <p>React • Tailwind • Chart.js • Dark mode</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <!-- Add more cards here... -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / Education -->
+    <section id="experience">
+        <div class="container">
+            <h2>Experience & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 – Present</div>
+                    <div class="timeline-content">
+                        <h3>Freelance Front-End Developer</h3>
+                        <p>Building websites & web apps for clients</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023 – 2024</div>
+                    <div class="timeline-content">
+                        <h3>Self-taught Web Development</h3>
+                        <p>The Odin Project, freeCodeCamp, YouTube</p>
+                    </div>
+                </div>
+                <!-- Add more items -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>I'm currently open to freelance projects and full-time opportunities.</p>
+            
+            <div class="contact-info">
+                <a href="mailto:hello@yourname.dev"><i class="fas fa-envelope"></i> hello@yourname.dev</a>
+                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+            </div>
+
+            <!-- Optional: Simple contact form UI (not functional) -->
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required/>
+                <input type="email" placeholder="Your Email" required/>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="cta">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+            <div class="social-footer">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
